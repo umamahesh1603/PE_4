@@ -1,7 +1,7 @@
 package com.stackroute.pe4;
 
 public class TransposeOfAParagraph {
-    public String Transpose(String str)
+    public String transpose(String str)
     {
         StringBuilder ReversedString = new StringBuilder();
         ReversedString.append(str);

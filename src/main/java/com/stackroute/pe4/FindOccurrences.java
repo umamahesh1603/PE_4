@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class FindOccurrences {
-    public Integer[] OccuringAt(String inputString, String matchingString)
+    public Integer[] occuringAt(String inputString, String matchingString)
     {
         List<Integer> list = new ArrayList<Integer>();
         Pattern pattern= Pattern.compile(matchingString);

@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class CountFrequencyTest {
     @Test
-    public void TestCountFrequency()
+    public void testCountFrequency()
     {
         CountFrequency countFrequency=new CountFrequency();
 
